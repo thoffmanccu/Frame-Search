@@ -120,7 +120,7 @@ void menu(struct Matrices* matrices, int* i)
 
          case 3 :
              printf("You have chosen to perform operations on your matrices here is a list of all matrices entered please select one by its index");
-
+                break;
 
 
 
