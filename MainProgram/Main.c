@@ -16,7 +16,7 @@ int main(void)
      */
 
     int length = 1000;     //length of matrices array
-    int i = -1;
+    int i = 0;
     struct Matrices matrices[length];  //main struct to store all things in
 
     matrices->matrixNumber=0;

@@ -3,11 +3,14 @@
 //
 
 #include "../MainProgram/Main.h"
+#include <stdio.h>
 
 #ifndef MATRICIESHOFFMANPROJECTV0_1_IOFILEMETHODS_H
 #define MATRICIESHOFFMANPROJECTV0_1_IOFILEMETHODS_H
 
-void getMatrix(struct Matrices* matrices, int a, char[]);
+void readInMatrix(struct Matrices* matrices, int a);
+
+void newLineRemover(FILE* fp);
 
 void listAllMatrices(struct Matrices* matrices);
 

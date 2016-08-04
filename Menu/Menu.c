@@ -29,7 +29,7 @@ void menu(struct Matrices* matrices, int* i)
     //char new[256] = "new";
     //char existing[256] = "existing";
     bool status;
-    char *path = malloc(128+1);
+    //char *path = malloc(128+1);
 
     //menu selection 1
     /*
@@ -106,16 +106,14 @@ void menu(struct Matrices* matrices, int* i)
              break;
         case 2 :
            printf("You have chose to read in a matrix/matricies from a file\n");
-            printf("Please enter in a file name\n");
+
 
              fflush(stdin);
              //path = "D:\\College Documents\\HoffmanResearch\\IOTestFolders\\matrixReadInTest1.txt";
              //scanf("%s", path);
 
-             fgets(path, sizeof(path), stdin);
-             printf("\n%s", path);
 
-             getMatrix(matrices, a, path);
+             readInMatrix(matrices, a);
 
              //function to read in from file
              break;
