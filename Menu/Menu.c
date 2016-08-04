@@ -36,7 +36,7 @@ void menu(struct Matrices* matrices, int* i)
      * determines if the user is a new or old user
      * then either creates new file for matrices to be stored in or reads in existing matrices
      */
-       printf("\nWelcome to matricies v0.15\n");
+       printf("\nWelcome to matricies v0.1\n");
        printf("\nAre you an existing user or new user?(type new or existing)\n");
        fflush(stdin);
        fflush(stdout);
